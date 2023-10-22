@@ -15,7 +15,7 @@ function App() {
   
    <>
           <div>
-           <Header></Header>
+          <Header productName="Adopta un Perritos" />
           </div>
           <div className="contenedor" >
           <MyCard
@@ -43,12 +43,13 @@ function App() {
           image="/jpg/67d3c53bd012acf2a1003e1d9cd4777d.jpg" 
           alt="Imagen 1"
           title="Sol"
-          descripcion="nada mas lindo que este hermoza perrita jugetona"
+          descripcion="Nada mas lindo que este hermoza perrita jugetona"
           colorButton="dark"
           textButton="Adoptar"/> { /* Definimos las props que se pasaran a MyCard */ }
           </div>
           <div>
-          <Footer></Footer>
+          <Footer textt ="Adoptar un perrito a través de nuestra web es una oportunidad para dar amor y un hogar a una mascota necesitada. Cada adopción contribuye a salvar vidas y a brindar a estos leales amigos una segunda oportunidad Tu elección de adoptar no solo enriquecerá tu vida, sino que también hará una diferencia real en el mundo de los animales"
+          ></Footer>
           </div>
           </>
           
