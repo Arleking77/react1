@@ -15,7 +15,7 @@ function App() {
   
    <>
           <div>
-          <Header productName="Adopta un Perritos" />
+          <Header productName="Adopta un Perrit@" />
           </div>
           <div className="contenedor" >
           <MyCard
